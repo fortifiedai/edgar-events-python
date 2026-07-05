@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edgar-events"
+version = "0.1.0"
+description = "Python client for the EDGAR Events API — structured SEC filing events"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "fortifiedai" }]
+keywords = ["sec", "edgar", "13d", "8-k", "filings", "activist", "fintech"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business :: Financial :: Investment",
+]
+
+[project.urls]
+Homepage = "https://edgarevents.com"
+Source = "https://github.com/fortifiedai/edgar-events-python"
+
+[tool.setuptools.packages.find]
+include = ["edgar_events*"]
