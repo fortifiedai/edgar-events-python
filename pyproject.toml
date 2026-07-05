@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "edgar-events"
-version = "0.1.0"
+version = "0.2.0"
 description = "Python client for the EDGAR Events API — structured SEC filing events"
 readme = "README.md"
 requires-python = ">=3.9"
